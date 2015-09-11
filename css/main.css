@@ -81,7 +81,8 @@ header {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	border-bottom: 7.5px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: 0 15px 20px -12px rgba(0,0,0,.8);
 }
 
 #logo  {
@@ -216,7 +217,7 @@ MEDIA QUERIES
 	}
 
 	header {
-		border-bottom: 5px solid black;
+		border-bottom: 1px solid black;
 		margin-bottom: 50px;
 	}
 }
