@@ -1,0 +1,247 @@
+/**********************************
+WEBFONTS
+***********************************/
+
+@font-face {
+	    font-family: 'skyhawk_outlineregular';
+	    src: url('../fonts/skyhawkout-webfont.eot');
+	    src: url('../fonts/skyhawkout-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/skyhawkout-webfont.woff') format('woff'),
+	         url('../fonts/skyhawkout-webfont.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+
+}
+
+/**********************************
+GENERAL
+***********************************/
+
+* {
+	list-style: none;
+	text-decoration: none;
+}
+
+
+body {
+	color: #878787;
+	margin: 0;
+	font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%
+}
+
+h1, h2 {
+	font-family: 'skyhawk_outlineregular', Helvetica, Arial, sans-serif;
+}
+
+h1{
+	font-size: 12.5rem; /* 200px/16px */
+	color: #282828;
+	letter-spacing: -10px;
+	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+	display: inline;
+}
+
+a {
+	color: black;
+}
+
+nav a {
+	color: black;
+}
+
+nav a:visited {
+	color: crimson;
+}
+
+nav a.selected {
+	color: yellow;
+}
+
+nav a:hover{
+	color: mediumblue;
+	font-size: 1.1rem;
+}
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-bottom: 7.5px solid black;
+}
+
+#logo  {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'skyhawk_outlineregular', sans-serif;
+	margin: 15px 0;
+	font-size: 12.5em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0 15px;
+	margin: 20px 0 20px;
+}
+
+nav ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 600;
+	padding: 15px 10px 0;
+	letter-spacing: 10px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 20px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+/**********************************
+PAGE: GALLERY
+***********************************/
+
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+}
+
+/**********************************
+MEDIA QUERIES
+***********************************/
+@media screen and(min-width: 480px) {
+	/**********************************
+	TWO-COLUMN LAYOUT
+	***********************************/
+
+	#primary{
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+	/**********************************
+	PAGE: PORTFOLIO
+	***********************************/
+	#gallery {
+		padding: 0;
+	}
+
+	#gallery li {
+		width: 28.33333%;
+	}
+
+
+
+}
+
+@media screen and (min-width:  660px) {
+
+	/**********************************
+	HEADER
+	***********************************/
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		padding-bottom: 5px;
+		text-align: right;
+		width: 45%; 
+	}
+
+	#logo {
+		float: left;
+		text-align: left;
+		margin-left: 5%;
+		width: 45%;
+	}
+
+	h1 {
+		font-size: 6.25em;
+	}
+
+	header {
+		border-bottom: 5px solid black;
+		margin-bottom: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
